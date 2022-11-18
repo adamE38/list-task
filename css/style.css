@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(22, 22, 22);
+    padding: 25px;
+    color: #fff;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.create-item-form {
+    display: none;
+    background: rgb(55, 55, 55);
+    border: 1px solid rgb(155, 255, 142);
+    color: #fff;
+    width: 560px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.obj-list {
+    border: 1px solid rgb(155, 255, 142);
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form div label,form div input {
+    display: block;
+    margin: 15px;
+}
+
+form div input {
+    width: 100%;
+}
+
+.left {
+    width: 20%,
+
+}
+
+.right {
+    width: 60%;
+}
+
+.btn, .btn:visited, .btn:active {
+    color: #000;
+    font-weight: light;
+    text-decoration: none;
+    display: inline-block;
+    background:rgb(155, 255, 142);
+    padding: 10px 20px;
+    border-radius: 5px;;
+}
+
+.object {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.object > div {
+    width: 25%;
+}
+
+.focus {
+    font-weight: bold;
+    color: rgb(155, 255, 142);
+}
+
+.footer {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
